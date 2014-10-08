@@ -75,6 +75,42 @@
 		6BE4B285147E6B610059E45F /* XCFrameworkDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE4B285147E6B610059E45E /* XCFrameworkDefinition.m */; };
 		6BE4B285147E6B610059E460 /* XCFrameworkDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE4B285147E6B610059E45E /* XCFrameworkDefinition.m */; };
 		6BE4B285147E6B610059E462 /* XCFrameworkDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BE4B285147E6B610059E461 /* XCFrameworkDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82D7EE2319E4B72500C67CB7 /* XCProject+SubProject.m in Sources */ = {isa = PBXBuildFile; fileRef = E94DE11415443AC100C5126D /* XCProject+SubProject.m */; };
+		82D7EE2419E4B72500C67CB7 /* XCSubProjectDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = E94DE11415443AC100C5125F /* XCSubProjectDefinition.m */; };
+		82D7EE2519E4B72500C67CB7 /* XCSourceFileDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = E94DE11415443AC100C51259 /* XCSourceFileDefinition.m */; };
+		82D7EE2619E4B72500C67CB7 /* XCAbstractDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B51E2FD1547FEDD00DBA0BD /* XCAbstractDefinition.m */; };
+		82D7EE2719E4B72500C67CB7 /* XCFrameworkDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE4B285147E6B610059E45E /* XCFrameworkDefinition.m */; };
+		82D7EE2819E4B72500C67CB7 /* XcodeSourceFileType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD02814F8A3AC00BCFE81 /* XcodeSourceFileType.m */; };
+		82D7EE2919E4B72500C67CB7 /* XcodeMemberType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD02A14F8A3AC00BCFE81 /* XcodeMemberType.m */; };
+		82D7EE2A19E4B72500C67CB7 /* XCXibDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE4B285147E6B610059E457 /* XCXibDefinition.m */; };
+		82D7EE2B19E4B72500C67CB7 /* XCTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD02614F8A3AC00BCFE81 /* XCTarget.m */; };
+		82D7EE2C19E4B72500C67CB7 /* XCSourceFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD01C14F8A3AC00BCFE81 /* XCSourceFile.m */; };
+		82D7EE2D19E4B72500C67CB7 /* XCProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD02414F8A3AC00BCFE81 /* XCProject.m */; };
+		82D7EE2E19E4B72500C67CB7 /* XCGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD02014F8A3AC00BCFE81 /* XCGroup.m */; };
+		82D7EE2F19E4B72500C67CB7 /* XCFileOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD01E14F8A3AC00BCFE81 /* XCFileOperationQueue.m */; };
+		82D7EE3019E4B72500C67CB7 /* XCClassDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD01A14F8A3AC00BCFE81 /* XCClassDefinition.m */; };
+		82D7EE3119E4B72500C67CB7 /* XCKeyBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD02214F8A3AC00BCFE81 /* XCKeyBuilder.m */; };
+		82D7EE3219E4B72500C67CB7 /* XCBuildConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = BA798967B6C5975BA265EBDD /* XCBuildConfiguration.m */; };
+		82D7EE3419E4B73100C67CB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D7EE3319E4B73100C67CB7 /* Foundation.framework */; };
+		82D7EE3619E4B75F00C67CB7 /* XcodeEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = BA79848F199FA8B3F3DFA16E /* XcodeEditor.h */; };
+		82D7EE3719E4B75F00C67CB7 /* XCProject+SubProject.h in Headers */ = {isa = PBXBuildFile; fileRef = E94DE11415443AC100C51270 /* XCProject+SubProject.h */; };
+		82D7EE3819E4B75F00C67CB7 /* XCSubProjectDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = E94DE11415443AC100C5125E /* XCSubProjectDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82D7EE3919E4B75F00C67CB7 /* XCSourceFileDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = E94DE11415443AC100C5125C /* XCSourceFileDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82D7EE3A19E4B75F00C67CB7 /* XCAbstractDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B51E2FC1547FEDD00DBA0BD /* XCAbstractDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82D7EE3B19E4B75F00C67CB7 /* XCFrameworkDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BE4B285147E6B610059E461 /* XCFrameworkDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82D7EE3C19E4B75F00C67CB7 /* XcodeSourceFileType.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B3AD02714F8A3AC00BCFE81 /* XcodeSourceFileType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82D7EE3D19E4B75F00C67CB7 /* XcodeMemberType.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B3AD02914F8A3AC00BCFE81 /* XcodeMemberType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82D7EE3E19E4B75F00C67CB7 /* XcodeGroupMember.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BE4B285147E6B610059E452 /* XcodeGroupMember.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82D7EE3F19E4B75F00C67CB7 /* XCXibDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BE4B285147E6B610059E45A /* XCXibDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82D7EE4019E4B75F00C67CB7 /* XCTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B3AD02514F8A3AC00BCFE81 /* XCTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82D7EE4119E4B75F00C67CB7 /* XCSourceFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B3AD01B14F8A3AC00BCFE81 /* XCSourceFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82D7EE4219E4B75F00C67CB7 /* XCProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B3AD02314F8A3AC00BCFE81 /* XCProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82D7EE4319E4B75F00C67CB7 /* XCGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B3AD01F14F8A3AC00BCFE81 /* XCGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82D7EE4419E4B75F00C67CB7 /* XCFileOperationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B3AD01D14F8A3AC00BCFE81 /* XCFileOperationQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82D7EE4519E4B75F00C67CB7 /* XCClassDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B3AD01914F8A3AC00BCFE81 /* XCClassDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82D7EE4719E4B75F00C67CB7 /* XCKeyBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B3AD02114F8A3AC00BCFE81 /* XCKeyBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82D7EE4819E4B75F00C67CB7 /* XCBuildConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = BA7989BBB424E01D41346F4F /* XCBuildConfiguration.h */; };
+		82D7EE4919E4B78E00C67CB7 /* XcodeEditor-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 6B65941D14F8A56C00F65AEC /* XcodeEditor-Prefix.pch */; };
 		BA7980A661B2FF20A86F3FD0 /* XCClassDefinitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7984143FEC00A651B12D88 /* XCClassDefinitionTests.m */; };
 		BA7982BD513A2B1FDD22E03B /* XCBuildConfiguration.h in Copy Test Resources to /tmp */ = {isa = PBXBuildFile; fileRef = BA7989BBB424E01D41346F4F /* XCBuildConfiguration.h */; };
 		BA79845028C69EFC6F98AFF5 /* XcodeEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = BA79848F199FA8B3F3DFA16E /* XcodeEditor.h */; };
@@ -127,6 +163,15 @@
 				BA7982BD513A2B1FDD22E03B /* XCBuildConfiguration.h in Copy Test Resources to /tmp */,
 			);
 			name = "Copy Test Resources to /tmp";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D7EE0D19E4B65900C67CB7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -189,6 +234,9 @@
 		6BE4B285147E6B610059E45C /* ESA.Sales.Foobar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ESA.Sales.Foobar.xib; sourceTree = "<group>"; };
 		6BE4B285147E6B610059E45E /* XCFrameworkDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFrameworkDefinition.m; sourceTree = "<group>"; };
 		6BE4B285147E6B610059E461 /* XCFrameworkDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFrameworkDefinition.h; sourceTree = "<group>"; };
+		82D7EE0F19E4B65900C67CB7 /* libXcodeEditor-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libXcodeEditor-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D7EE1919E4B65900C67CB7 /* XcodeEditor-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XcodeEditor-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D7EE3319E4B73100C67CB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		BA7982B513E841FFAC2A7B2C /* XCSubProjectDefinitionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSubProjectDefinitionTests.m; sourceTree = "<group>"; };
 		BA7984143FEC00A651B12D88 /* XCClassDefinitionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCClassDefinitionTests.m; sourceTree = "<group>"; };
 		BA79848F199FA8B3F3DFA16E /* XcodeEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeEditor.h; sourceTree = "<group>"; };
@@ -228,6 +276,21 @@
 				6B55223814EA723700494CF3 /* Cocoa.framework in Frameworks */,
 				6BB429BB16971E5E0076F486 /* OCHamcrest.framework in Frameworks */,
 				EB0D0D06A529426AB9AEE89B /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D7EE0C19E4B65900C67CB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D7EE3419E4B73100C67CB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D7EE1619E4B65900C67CB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +409,8 @@
 			children = (
 				6B55223614EA723700494CF3 /* Tests.octest */,
 				6B3ACFE014F8A2FE00BCFE81 /* XcodeEditor.framework */,
+				82D7EE0F19E4B65900C67CB7 /* libXcodeEditor-iOS.a */,
+				82D7EE1919E4B65900C67CB7 /* XcodeEditor-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -353,6 +418,7 @@
 		6BC10163147775A40055CF03 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				82D7EE3319E4B73100C67CB7 /* Foundation.framework */,
 				6BB429C71697C5D20076F486 /* OCHamcrest.framework */,
 				6BB429BA16971E5E0076F486 /* OCHamcrest.framework */,
 				6B41FDA714F60C5E00004897 /* libprofile_rt.dylib */,
@@ -424,6 +490,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		82D7EE3519E4B73A00C67CB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D7EE3819E4B75F00C67CB7 /* XCSubProjectDefinition.h in Headers */,
+				82D7EE3919E4B75F00C67CB7 /* XCSourceFileDefinition.h in Headers */,
+				82D7EE3A19E4B75F00C67CB7 /* XCAbstractDefinition.h in Headers */,
+				82D7EE3B19E4B75F00C67CB7 /* XCFrameworkDefinition.h in Headers */,
+				82D7EE3C19E4B75F00C67CB7 /* XcodeSourceFileType.h in Headers */,
+				82D7EE3D19E4B75F00C67CB7 /* XcodeMemberType.h in Headers */,
+				82D7EE3E19E4B75F00C67CB7 /* XcodeGroupMember.h in Headers */,
+				82D7EE3F19E4B75F00C67CB7 /* XCXibDefinition.h in Headers */,
+				82D7EE4019E4B75F00C67CB7 /* XCTarget.h in Headers */,
+				82D7EE4119E4B75F00C67CB7 /* XCSourceFile.h in Headers */,
+				82D7EE4219E4B75F00C67CB7 /* XCProject.h in Headers */,
+				82D7EE4319E4B75F00C67CB7 /* XCGroup.h in Headers */,
+				82D7EE4419E4B75F00C67CB7 /* XCFileOperationQueue.h in Headers */,
+				82D7EE4519E4B75F00C67CB7 /* XCClassDefinition.h in Headers */,
+				82D7EE4719E4B75F00C67CB7 /* XCKeyBuilder.h in Headers */,
+				82D7EE4919E4B78E00C67CB7 /* XcodeEditor-Prefix.pch in Headers */,
+				82D7EE3619E4B75F00C67CB7 /* XcodeEditor.h in Headers */,
+				82D7EE3719E4B75F00C67CB7 /* XCProject+SubProject.h in Headers */,
+				82D7EE4819E4B75F00C67CB7 /* XCBuildConfiguration.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -465,7 +557,42 @@
 			name = Tests;
 			productName = Tests;
 			productReference = 6B55223614EA723700494CF3 /* Tests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
+		};
+		82D7EE0E19E4B65900C67CB7 /* XcodeEditor-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D7EE2119E4B65900C67CB7 /* Build configuration list for PBXNativeTarget "XcodeEditor-iOS" */;
+			buildPhases = (
+				82D7EE0B19E4B65900C67CB7 /* Sources */,
+				82D7EE3519E4B73A00C67CB7 /* Headers */,
+				82D7EE0C19E4B65900C67CB7 /* Frameworks */,
+				82D7EE0D19E4B65900C67CB7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XcodeEditor-iOS";
+			productName = "XcodeEditor-iOS";
+			productReference = 82D7EE0F19E4B65900C67CB7 /* libXcodeEditor-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		82D7EE1819E4B65900C67CB7 /* XcodeEditor-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D7EE2219E4B65900C67CB7 /* Build configuration list for PBXNativeTarget "XcodeEditor-iOSTests" */;
+			buildPhases = (
+				82D7EE1519E4B65900C67CB7 /* Sources */,
+				82D7EE1619E4B65900C67CB7 /* Frameworks */,
+				82D7EE1719E4B65900C67CB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XcodeEditor-iOSTests";
+			productName = "XcodeEditor-iOSTests";
+			productReference = 82D7EE1919E4B65900C67CB7 /* XcodeEditor-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -475,6 +602,14 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = EXPANZ;
+				TargetAttributes = {
+					82D7EE0E19E4B65900C67CB7 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					82D7EE1819E4B65900C67CB7 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
 			};
 			buildConfigurationList = 6BC1015A147775A40055CF03 /* Build configuration list for PBXProject "xcode-editor" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -486,12 +621,12 @@
 			mainGroup = 6BC10155147775A40055CF03;
 			productRefGroup = 6BC10161147775A40055CF03 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
 				6B55223514EA723700494CF3 /* Tests */,
 				6B3ACFDF14F8A2FE00BCFE81 /* XcodeEditor */,
+				82D7EE0E19E4B65900C67CB7 /* XcodeEditor-iOS */,
+				82D7EE1819E4B65900C67CB7 /* XcodeEditor-iOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -522,6 +657,13 @@
 				E94DE11415443AC100C51257 /* HelloBoxy.zip in Resources */,
 				6B01A07A154A337A00122D48 /* goat-funny.png in Resources */,
 				6B4B61281588A4D6003639E8 /* Person.impl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D7EE1719E4B65900C67CB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,6 +769,36 @@
 				BA7985B8636EDA34C738B527 /* XCTargetTests.m in Sources */,
 				BA798B0394D0BCC02CD07FCE /* XcodeFileReferenceTypeTests.m in Sources */,
 				BA798A3E8F2934F2F307920C /* CoverageFixer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D7EE0B19E4B65900C67CB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D7EE2319E4B72500C67CB7 /* XCProject+SubProject.m in Sources */,
+				82D7EE2419E4B72500C67CB7 /* XCSubProjectDefinition.m in Sources */,
+				82D7EE2519E4B72500C67CB7 /* XCSourceFileDefinition.m in Sources */,
+				82D7EE2619E4B72500C67CB7 /* XCAbstractDefinition.m in Sources */,
+				82D7EE2719E4B72500C67CB7 /* XCFrameworkDefinition.m in Sources */,
+				82D7EE2819E4B72500C67CB7 /* XcodeSourceFileType.m in Sources */,
+				82D7EE2919E4B72500C67CB7 /* XcodeMemberType.m in Sources */,
+				82D7EE2A19E4B72500C67CB7 /* XCXibDefinition.m in Sources */,
+				82D7EE2B19E4B72500C67CB7 /* XCTarget.m in Sources */,
+				82D7EE2C19E4B72500C67CB7 /* XCSourceFile.m in Sources */,
+				82D7EE2D19E4B72500C67CB7 /* XCProject.m in Sources */,
+				82D7EE2E19E4B72500C67CB7 /* XCGroup.m in Sources */,
+				82D7EE2F19E4B72500C67CB7 /* XCFileOperationQueue.m in Sources */,
+				82D7EE3019E4B72500C67CB7 /* XCClassDefinition.m in Sources */,
+				82D7EE3119E4B72500C67CB7 /* XCKeyBuilder.m in Sources */,
+				82D7EE3219E4B72500C67CB7 /* XCBuildConfiguration.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D7EE1519E4B65900C67CB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -815,6 +987,164 @@
 			};
 			name = Release;
 		};
+		82D7EE1D19E4B65900C67CB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Dependencies\"",
+				);
+				GCC_PREFIX_HEADER = "Source/Main/Resources/XcodeEditor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"I_OS=1",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		82D7EE1E19E4B65900C67CB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Dependencies\"",
+				);
+				GCC_PREFIX_HEADER = "Source/Main/Resources/XcodeEditor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "I_OS=1";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82D7EE1F19E4B65900C67CB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "XcodeEditor-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82D7EE2019E4B65900C67CB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "XcodeEditor-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -844,6 +1174,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		82D7EE2119E4B65900C67CB7 /* Build configuration list for PBXNativeTarget "XcodeEditor-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D7EE1D19E4B65900C67CB7 /* Debug */,
+				82D7EE1E19E4B65900C67CB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82D7EE2219E4B65900C67CB7 /* Build configuration list for PBXNativeTarget "XcodeEditor-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D7EE1F19E4B65900C67CB7 /* Debug */,
+				82D7EE2019E4B65900C67CB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

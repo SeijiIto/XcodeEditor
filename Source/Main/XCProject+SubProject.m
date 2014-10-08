@@ -33,7 +33,11 @@
     {
         if ([[obj valueForKey:@"isa"] asMemberType] == PBXReferenceProxyType)
         {
+#ifdef I_OS
+            if ([[obj valueForKey:@"path"] isEqual:name])
+#else
             if ([[obj valueForKey:@"path"] isEqualTo:name])
+#endif
             {
                 result = key;
                 *stop = YES;

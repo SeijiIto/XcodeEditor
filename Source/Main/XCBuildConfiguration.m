@@ -16,7 +16,9 @@
 #import "XCKeyBuilder.h"
 #import "XCProject.h"
 #import "XCSourceFile.h"
+#ifndef I_OS
 #import "OCLogTemplate.h"
+#endif
 
 @implementation XCBuildConfiguration
 
@@ -142,15 +144,17 @@
 {
     NSDictionary* settings = [NSDictionary dictionaryWithObject:setting forKey:key];
     [self addBuildSettings:settings];
-
+	
+#ifndef I_OS
     LogDebug(@"$$$$$$$$$$$ before: %@", [_project.objects objectForKey:_key]);
-
+#endif
     NSMutableDictionary* dict = [[[_project objects] objectForKey:_key] mutableCopy];
     [dict setValue:_buildSettings forKey:@"buildSettings"];
     [_project.objects setValue:dict forKey:_key];
-
+	
+#ifndef I_OS
     LogDebug(@"The settings: %@", [_project.objects objectForKey:_key]);
-
+#endif
     }
 
 
